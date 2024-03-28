@@ -41,4 +41,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rack", "~>2.2"
 # Recent Ruby removes Webrick, so add it back
   spec.add_runtime_dependency "webrick"
+  spec.add_development_dependency "rack-test"
+  spec.add_development_dependency "minitest"
 end
